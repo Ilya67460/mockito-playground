@@ -27,8 +27,6 @@ markdown
 - **Mockito** — моки и стабы
 - **Maven** — сборка
 
-> ⚠️ **Важно:** это **юнит-тесты**, а не E2E. В отличие от основного проекта ([juice-shop-security-tests](https://github.com/Ilya67460/juice-shop-security-tests)), здесь **нет** Playwright, браузера и реальной БД. Только изоляция логики.
-
 ---
 
 ## 🚀 Как запустить
