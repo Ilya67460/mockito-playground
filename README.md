@@ -93,7 +93,7 @@ doReturn("Hello, Spy!").when(spyService).getGreeting(1);
 assertEquals("Hello, Spy!", spyService.getGreeting(1));
 ⚠️ Для spy() используй doReturn().when(), а не when().thenReturn() — иначе вызовется реальный метод.
 
-🎓 Чему научился
+
 Создание моков через @Mock и @InjectMocks.
 
 Настройка поведения: thenReturn, thenThrow, thenAnswer.
@@ -104,8 +104,6 @@ assertEquals("Hello, Spy!", spyService.getGreeting(1));
 
 Изоляция бизнес-логики от БД без поднятия реальной инфраструктуры.
 
-📝 Лицензия
-MIT — используй свободно для обучения и портфолио.
 
 🔗 Ссылки
 Mockito Documentation
